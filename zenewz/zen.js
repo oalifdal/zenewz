@@ -14,6 +14,7 @@ function zenRead() {
   document.getElementsByTagName("head")[0].appendChild(link);
 }
 
+chrome.extension.sendMessage({type:'showPageAction'});
 
 setTimeout(function() {
   var zenButton = document.querySelector("div.btn_lecture_zen");
