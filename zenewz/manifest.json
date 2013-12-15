@@ -10,6 +10,9 @@
   "permissions": [
     "http://www.lemonde.fr/"
   ],
+  "background": {
+      "scripts": ["background.js"]
+  },
   "content_scripts": [
     {
       "matches": ["http://www.lemonde.fr/*"],
