@@ -7,5 +7,4 @@ Supported websites
 ==================
 
 For now, the extension works on the following websites:
-
-    * www.lemonde.fr
+  - www.lemonde.fr
